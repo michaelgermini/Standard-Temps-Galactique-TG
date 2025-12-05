@@ -1,0 +1,12 @@
+id,event,date_iso_utc,tg_version,hel,cos,g,sg,mug,notes
+1,J2000 epoch,2000-01-01T12:00:00Z,TG.v2025,008.700,000,00,00,00,Base astronomique
+2,Adoption officielle TG,2025-11-21T00:00:00Z,TG.v2025,008.742,511,92,40,10,Vote Conseil des Nations
+3,Premier HEL+1,2025-12-31T00:00:00Z,TG.v2025,008.743,000,00,00,00,Célébration mondiale
+4,Déploiement GEO-01,2026-03-15T00:00:00Z,TG.v2025,008.744,123,45,67,89,Installation Genève
+5,Inspection Géode arctique,2030-07-01T00:00:00Z,TG.v2025,008.761,210,05,10,90,Audit réseau GEO-NET
+6,Lancement mission MULS-3,2045-05-20T00:00:00Z,TG.v2025,008.826,405,12,34,56,Colonies martiennes
+7,Pic d’activité pulsar B1937+21,2075-01-01T00:00:00Z,TG.v2025,008.956,000,12,00,00,Étude synchronisation
+8,Recalibration TG.v2050,2050-01-01T00:00:00Z,TG.v2050,008.870,000,00,00,00,Mise à jour GY
+9,Projection +500 ans,2525-01-01T00:00:00Z,TG.v2025,010.913,102,11,50,72,Planification longue durée
+10,Inspection système SUCL,2125-09-17T00:00:00Z,TG.v2025,009.199,780,25,33,44,Contrôle encodeurs
+

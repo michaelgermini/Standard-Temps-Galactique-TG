@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <style>
+    .grid { stroke: #cccccc; stroke-width: 0.5; }
+    .axis { stroke: #666666; stroke-width: 1; }
+    .arm { fill: none; stroke-width: 2; }
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #1a1a1a; }
+  </style>
+  <!-- background grid -->
+  <g opacity="0.4">
+    <path class="grid" d="M0 200 H400" />
+    <path class="grid" d="M200 0 V400" />
+    <circle class="grid" cx="200" cy="200" r="50" />
+    <circle class="grid" cx="200" cy="200" r="100" />
+    <circle class="grid" cx="200" cy="200" r="150" />
+    <circle class="grid" cx="200" cy="200" r="180" />
+  </g>
+  <!-- axis -->
+  <line class="axis" x1="20" y1="200" x2="380" y2="200" />
+  <line class="axis" x1="200" y1="20" x2="200" y2="380" />
+  <!-- galactic center -->
+  <circle cx="200" cy="200" r="12" fill="#f2c94c" stroke="#b37d00" stroke-width="1.5" />
+  <text class="label" x="210" y="190">Centre galactique</text>
+  <!-- arms -->
+  <path class="arm" stroke="#4a90e2" d="M200 200 C260 180, 320 150, 360 100" />
+  <path class="arm" stroke="#7ed321" d="M200 200 C150 140, 120 80, 80 40" />
+  <path class="arm" stroke="#d0021b" d="M200 200 C180 260, 150 320, 120 360" />
+  <path class="arm" stroke="#9013fe" d="M200 200 C260 240, 320 280, 360 320" />
+  <!-- sun -->
+  <circle cx="260" cy="150" r="6" fill="#f5a623" stroke="#c16c00" stroke-width="1" />
+  <text class="label" x="268" y="148">Soleil (bras d'Orion)</text>
+  <!-- legend -->
+  <rect x="15" y="300" width="150" height="80" fill="#ffffff" stroke="#999999" stroke-width="0.7" />
+  <text class="label" x="25" y="315">Bras identifiés :</text>
+  <text class="label" x="25" y="330" fill="#4a90e2">— Sagittaire-Carène</text>
+  <text class="label" x="25" y="345" fill="#7ed321">— Persée</text>
+  <text class="label" x="25" y="360" fill="#d0021b">— Scutum-Centaure</text>
+  <text class="label" x="25" y="375" fill="#9013fe">— Bras externe</text>
+</svg>
+
