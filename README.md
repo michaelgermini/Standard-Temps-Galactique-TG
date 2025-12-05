@@ -123,7 +123,7 @@ Ce traité est structuré pour permettre la collaboration et l'amélioration con
 
 ## 📄 Licence
 
-[À définir selon vos besoins]
+Ce projet est sous licence [MIT](LICENSE).
 
 ---
 
